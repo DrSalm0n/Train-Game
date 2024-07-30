@@ -2,7 +2,6 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"oAlert","order":5,"path":"objects/oAlert/oAlert.yy",},
-    {"name":"Object8","order":6,"path":"objects/Object8/Object8.yy",},
     {"name":"oController","order":4,"path":"objects/oController/oController.yy",},
     {"name":"oEngine","order":2,"path":"objects/oEngine/oEngine.yy",},
     {"name":"oMountain","order":7,"path":"objects/oMountain/oMountain.yy",},

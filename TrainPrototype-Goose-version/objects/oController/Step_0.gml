@@ -1,3 +1,7 @@
+if (global.current_distance == 0){
+	global.total_distance = random_range(10000, 20000);
+}
+
 // Check if space is pressed
 if (keyboard_check(vk_space)) {
     global.velocity += global.acceleration;
