@@ -2,7 +2,7 @@
 global.total_distance = 10000;
 global.current_distance = 0;
 global.velocity = 0; // Initial velocity
-global.max_velocity= 50;
+global.max_velocity= 25;
 global.acceleration = 0.2; // Amount to increase the velocity
 global.deceleration = 0.08;
 

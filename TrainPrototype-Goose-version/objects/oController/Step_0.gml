@@ -5,6 +5,9 @@ if (global.current_distance == 0){
 // Check if space is pressed
 if (keyboard_check(vk_space)) {
     global.velocity += global.acceleration;
+	if (global.velocity > global.max_velocity){
+		global.velocity = global.max_velocity;
+	}
 } else {
     global.velocity -= global.deceleration;
 }
