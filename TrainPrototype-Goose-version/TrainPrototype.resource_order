@@ -7,6 +7,7 @@
     {"name":"oMiniTrain","order":11,"path":"objects/oMiniTrain/oMiniTrain.yy",},
     {"name":"oMountain","order":7,"path":"objects/oMountain/oMountain.yy",},
     {"name":"oProgressionBar","order":10,"path":"objects/oProgressionBar/oProgressionBar.yy",},
+    {"name":"oRedAlert","order":12,"path":"objects/oRedAlert/oRedAlert.yy",},
     {"name":"oTree_1","order":8,"path":"objects/oTree_1/oTree_1.yy",},
     {"name":"oTree_2","order":9,"path":"objects/oTree_2/oTree_2.yy",},
     {"name":"oTree","order":3,"path":"objects/oTree/oTree.yy",},
@@ -25,6 +26,7 @@
     {"name":"SPR_Train_body","order":10,"path":"sprites/SPR_Train_body/SPR_Train_body.yy",},
     {"name":"SPR_Train_Wheels","order":11,"path":"sprites/SPR_Train_Wheels/SPR_Train_Wheels.yy",},
     {"name":"SPR_Tree","order":17,"path":"sprites/SPR_Tree/SPR_Tree.yy",},
+    {"name":"sRedAlert","order":20,"path":"sprites/sRedAlert/sRedAlert.yy",},
     {"name":"tree","order":5,"path":"sprites/tree/tree.yy",},
   ],
 }
