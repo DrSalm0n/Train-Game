@@ -1,5 +1,5 @@
 // Step Event
-if (global.current_distance >= global.total_distance * 0.50 && display_token == true) {
+if (global.current_distance >= global.total_distance * 0.60 && display_token == true) {
 	
     if (alarm[0] == -1) { // Check if the alarm is not already set
         visible = true;   // Make the object visible
@@ -9,7 +9,7 @@ if (global.current_distance >= global.total_distance * 0.50 && display_token == 
 
 //display token is to make sure the alert doesn't appear infinitely when the current 
 //distance is more than the (this can change) 70% of the total distance
-if (global.current_distance >= global.total_distance * 0.51){
+if (global.current_distance >= global.total_distance * 0.71){
 	display_token = false;
 }
 
