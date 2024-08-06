@@ -47,6 +47,7 @@
     {"id":{"name":"oTree_2","path":"objects/oTree_2/oTree_2.yy",},},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},},
     {"id":{"name":"oVelocimiter","path":"objects/oVelocimiter/oVelocimiter.yy",},},
+    {"id":{"name":"oWarning","path":"objects/oWarning/oWarning.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sAlert","path":"sprites/sAlert/sAlert.yy",},},
     {"id":{"name":"sEngine1","path":"sprites/sEngine1/sEngine1.yy",},},
