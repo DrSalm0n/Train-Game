@@ -1,26 +1,26 @@
 // Step Event
 
-// Check if current distance is about 95% of total distance and the station hasn't appeared yet
-if (global.current_distance >= global.total_distance * timetillstop) {
-    // Move the object leftwards
-    x -= global.velocity;
-    
-    // Update visibility based on position
-    if (x > room_width || x < -sprite_width) {
-        visible = false; // Object is off-screen, so make it invisible
-    } else {
-        visible = true;  // Object is within the screen bounds, so make it visible
-    }
-
-    // Wrap around screen edges (optional based on your game logic)
-    if (x < -sprite_width) {
-        x = room_width + sprite_width; // Reappear off-screen to the right
-    }
-	if (global.station_moving = true) {
-	
-	visible=false;
-	
-	}
+// Handle movement and wrapping of the warning object
+if (global.current_distance < global.total_distance * global.min_range){
+	global.stopped = false;
 }
 
 
+if (!global.stopped) {
+    if (global.current_distance >= global.total_distance * global.min_range && global.current_distance <= global.total_distance * global.max_range) {
+        x -= global.velocity;
+
+        // Wrap around screen edges
+        if (x < -sprite_width) {
+            x = room_width;
+        }
+    } else if (global.current_distance > global.total_distance * global.max_range) {
+        x -= global.velocity;
+
+        // Wrap around screen edges
+        if (x < -sprite_width ) {
+            x = room_width + sprite_width;
+            global.stopped = true; // Indicate the warning object has reached the stopped state
+        }
+    }
+}
