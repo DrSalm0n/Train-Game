@@ -35,6 +35,7 @@
   "name":"TrainPrototype",
   "resources":[
     {"id":{"name":"oAlert","path":"objects/oAlert/oAlert.yy",},},
+    {"id":{"name":"oCoal","path":"objects/oCoal/oCoal.yy",},},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"oEngine","path":"objects/oEngine/oEngine.yy",},},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},},

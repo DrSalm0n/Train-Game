@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"oAlert","order":5,"path":"objects/oAlert/oAlert.yy",},
+    {"name":"oCoal","order":16,"path":"objects/oCoal/oCoal.yy",},
     {"name":"oController","order":4,"path":"objects/oController/oController.yy",},
     {"name":"oEngine","order":2,"path":"objects/oEngine/oEngine.yy",},
     {"name":"oMiniTrain","order":11,"path":"objects/oMiniTrain/oMiniTrain.yy",},
