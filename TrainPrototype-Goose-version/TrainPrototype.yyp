@@ -41,6 +41,7 @@
     {"id":{"name":"oMiniTrain","path":"objects/oMiniTrain/oMiniTrain.yy",},},
     {"id":{"name":"oMountain","path":"objects/oMountain/oMountain.yy",},},
     {"id":{"name":"oProgressionBar","path":"objects/oProgressionBar/oProgressionBar.yy",},},
+    {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},},
     {"id":{"name":"oStop","path":"objects/oStop/oStop.yy",},},
     {"id":{"name":"oTimer","path":"objects/oTimer/oTimer.yy",},},
     {"id":{"name":"oTrain","path":"objects/oTrain/oTrain.yy",},},

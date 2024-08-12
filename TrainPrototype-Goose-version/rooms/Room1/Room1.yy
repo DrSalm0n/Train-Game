@@ -38,6 +38,7 @@
     {"name":"inst_1DC9BC4D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_528F7A97","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2D28D1F1","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7B37887","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,6 +63,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1DC9BC4D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DC9BC4D","objectId":{"name":"oVelocimiter","path":"objects/oVelocimiter/oVelocimiter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":41.0,"y":45.0,},
         {"$GMRInstance":"v1","%Name":"inst_528F7A97","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_528F7A97","objectId":{"name":"oTimer","path":"objects/oTimer/oTimer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_2D28D1F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D28D1F1","objectId":{"name":"oWarning","path":"objects/oWarning/oWarning.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7B37887","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B37887","objectId":{"name":"oScore","path":"objects/oScore/oScore.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":64.0,},
       ],"layers":[],"name":"front_elemnts","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"HUD","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6AEA5AB7","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6AEA5AB7","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"SPR_VelocimeterBody","path":"sprites/SPR_VelocimeterBody/SPR_VelocimeterBody.yy",},"x":18.0,"y":27.0,},

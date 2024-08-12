@@ -7,6 +7,7 @@
     {"name":"oMiniTrain","order":11,"path":"objects/oMiniTrain/oMiniTrain.yy",},
     {"name":"oMountain","order":7,"path":"objects/oMountain/oMountain.yy",},
     {"name":"oProgressionBar","order":10,"path":"objects/oProgressionBar/oProgressionBar.yy",},
+    {"name":"oScore","order":15,"path":"objects/oScore/oScore.yy",},
     {"name":"oTimer","order":14,"path":"objects/oTimer/oTimer.yy",},
     {"name":"oTree_1","order":8,"path":"objects/oTree_1/oTree_1.yy",},
     {"name":"oTree_2","order":9,"path":"objects/oTree_2/oTree_2.yy",},
