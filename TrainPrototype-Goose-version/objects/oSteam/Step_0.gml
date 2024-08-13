@@ -1,9 +1,9 @@
-// Step Event of oSteam
 
 // Check if the train has stopped at a station and the steam has not been emitted yet
-if (global.at_stop && !steam_emitted) {
+if (previous_score != global.station && emission_timer < 0) {
     emission_timer = 30; // Set the timer for 30 frames (0.5-second burst of steam)
     steam_emitted = true; // Set the flag to prevent re-triggering the steam
+	previous_score = global.score; 
 }
 
 // Handle particle emission if the timer is active
@@ -28,5 +28,5 @@ if (emission_timer > 0) {
 
 // Reset the steam_emitted flag when the train starts moving again
 if (!global.at_stop && steam_emitted) {
-    steam_emitted = false; // Allow steam to be emitted the next time the train stops
+    steam_emitted = false;
 }

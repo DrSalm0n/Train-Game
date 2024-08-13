@@ -4,7 +4,7 @@
 emission_timer = 0;
 emission_rate = 2; // Number of particles to emit each frame
 steam_emitted = false; // Flag to control one-time steam emission
-// Define light gray color
+previous_score = 0;
 var c_lightgray = make_color_rgb(192, 192, 192); // Custom light gray color (RGB: 192, 192, 192)
 
 // Ensure the particle system is created
