@@ -55,3 +55,5 @@ if (global.at_stop && score_token) {
 if (global.current_distance < global.total_distance * 0.3 && !score_token) {
     score_token = true;
 }
+
+
