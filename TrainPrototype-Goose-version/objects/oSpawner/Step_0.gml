@@ -1,9 +1,9 @@
-if(time <= 0 && global.at_stop = false && spawn <= 0 && oWhistle.pass == false)
+if(time <= 0 && global.at_stop = false && oWhistle.pass == false)
 {
-instance_create_depth(x, 235,1, oAnimal);
-time = timer / oAnimal.difficulty;
-spawn++;
+instance_create_depth(x, 235, depth, oAnimal);
+time = timer;
 }
-
+if(time == 0)
+time = irandom_range(300,550);
 
 time--;

@@ -1,2 +1,3 @@
 letter = "";
-pass = false;
+pass = true;
+z = 0;

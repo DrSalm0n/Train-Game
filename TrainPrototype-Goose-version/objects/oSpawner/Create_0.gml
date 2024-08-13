@@ -1,4 +1,2 @@
-timer = irandom_range(200,400);
+timer = irandom_range(200,300);
 time = timer;
-
-spawn = 0;

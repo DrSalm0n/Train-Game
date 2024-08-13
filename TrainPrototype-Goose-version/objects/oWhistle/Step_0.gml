@@ -1,10 +1,11 @@
-if(oSpawner.time >150 && oSpawner.time <180)
-	letter = "";
+if(oSpawner.time <= 181 && oSpawner.time >= 150)
+	letter = "????";
 	pass = false;
 
 randomize();
 if(oSpawner.time == 120)
 {
+	letter = "";
 	for(z = 0; z <4; z++)
 	{
 	letter += choose( "W", "A", "S", "D");
@@ -12,7 +13,8 @@ if(oSpawner.time == 120)
 }
 
 //Destroys animal before crashing
-
+if(letter != "FAIL" && letter != "???")
+{
 if(keyboard_check_pressed(ord("A")))
 {
 	if(string_char_at(letter,1) == "A")
@@ -41,7 +43,8 @@ if(keyboard_check_pressed(ord("D")))
 		else 
 	letter = "FAIL";
 }
-if(letter == "" && oSpawner.time <120)
+if(letter == "")
 {
 	pass = true;
+}
 }

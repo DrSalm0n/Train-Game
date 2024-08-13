@@ -1,4 +1,3 @@
-oAnimal.difficulty = 1;
 global.animal_distance = 0;
 weight = 0;
 time = 0;
