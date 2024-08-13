@@ -1,0 +1,1 @@
+draw_text(288,128,letter);
