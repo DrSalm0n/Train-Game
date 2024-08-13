@@ -1,4 +1,3 @@
-timer = irandom_range(200,400);
+randomize();
+timer = irandom_range(500,600);
 time = timer;
-
-spawn = 0;

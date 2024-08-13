@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Train_Game",
-    "path":"Train_Game.yyp",
+    "name":"TrainPrototype",
+    "path":"TrainPrototype.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

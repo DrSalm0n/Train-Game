@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"SPR_Train_body",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":97,
   "bbox_left":0,
   "bbox_right":195,
-  "bbox_top":4,
+  "bbox_top":3,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
