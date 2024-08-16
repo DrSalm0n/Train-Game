@@ -18,6 +18,9 @@ global.at_warning_zone = false;
 global.reset= false;
 global.allow_movement = true;
 
+
+
+
 score_token = true;
 
 surface_resize(application_surface, 634, 360);

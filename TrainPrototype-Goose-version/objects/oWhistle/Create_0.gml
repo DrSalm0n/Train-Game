@@ -1,0 +1,2 @@
+letter = "";
+pass = false;
