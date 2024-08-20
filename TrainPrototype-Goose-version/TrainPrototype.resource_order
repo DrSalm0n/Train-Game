@@ -25,6 +25,7 @@
     {"name":"oSteam","order":19,"path":"objects/oSteam/oSteam.yy",},
     {"name":"oStop","order":1,"path":"objects/oStop/oStop.yy",},
     {"name":"oTimer","order":14,"path":"objects/oTimer/oTimer.yy",},
+    {"name":"oTrainCol","order":30,"path":"objects/oTrainCol/oTrainCol.yy",},
     {"name":"oTree_1","order":8,"path":"objects/oTree_1/oTree_1.yy",},
     {"name":"oTree_2","order":9,"path":"objects/oTree_2/oTree_2.yy",},
     {"name":"oTree","order":4,"path":"objects/oTree/oTree.yy",},
@@ -56,6 +57,7 @@
     {"name":"SPR_Tree","order":17,"path":"sprites/SPR_Tree/SPR_Tree.yy",},
     {"name":"SPR_VelocimeterArrow","order":20,"path":"sprites/SPR_VelocimeterArrow/SPR_VelocimeterArrow.yy",},
     {"name":"SPR_VelocimeterBody","order":21,"path":"sprites/SPR_VelocimeterBody/SPR_VelocimeterBody.yy",},
+    {"name":"Sprite27","order":31,"path":"sprites/Sprite27/Sprite27.yy",},
     {"name":"tree","order":5,"path":"sprites/tree/tree.yy",},
   ],
 }
