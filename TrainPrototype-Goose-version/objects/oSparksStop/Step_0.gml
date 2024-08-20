@@ -1,6 +1,4 @@
-// Step Event
 
-// Handle movement and wrapping of the warning object
 if (global.current_distance < global.total_distance * global.min_range) {
     global.stopped = false;
 }

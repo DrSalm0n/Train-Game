@@ -41,7 +41,6 @@
     {"name":"inst_4AB6BEF","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_286EC219","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_4D728C85","path":"rooms/RM_game/RM_game.yy",},
-    {"name":"inst_502794B6","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_2F77EFD1","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_5687A43","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_60394E12","path":"rooms/RM_game/RM_game.yy",},
@@ -53,7 +52,6 @@
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"particles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_4D728C85","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D728C85","objectId":{"name":"oSparksStop","path":"objects/oSparksStop/oSparksStop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":193.0,},
-        {"$GMRInstance":"v1","%Name":"inst_502794B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_502794B6","objectId":{"name":"oSmoke","path":"objects/oSmoke/oSmoke.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":31.0,"y":138.0,},
         {"$GMRInstance":"v1","%Name":"inst_2F77EFD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F77EFD1","objectId":{"name":"oSteam","path":"objects/oSteam/oSteam.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":111.0,},
         {"$GMRInstance":"v1","%Name":"inst_5687A43","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5687A43","objectId":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":256.0,},
         {"$GMRInstance":"v1","%Name":"inst_60394E12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60394E12","objectId":{"name":"oWhistle","path":"objects/oWhistle/oWhistle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},

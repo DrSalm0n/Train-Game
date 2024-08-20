@@ -8,7 +8,7 @@ if (!variable_global_exists("ps_sparks")) {
 if (!variable_global_exists("Par_Sparks")) {
     global.Par_Sparks = part_type_create();
     part_type_shape(global.Par_Sparks, pt_shape_pixel);
-    part_type_size(global.Par_Sparks, 1, 1, 0, 1);
+    part_type_size(global.Par_Sparks, 2, 2, 0, 2);
     part_type_color3(global.Par_Sparks, c_yellow, c_red, c_gray);
     part_type_alpha3(global.Par_Sparks, 1, 1, 0.5);
     part_type_life(global.Par_Sparks, 20, 40);

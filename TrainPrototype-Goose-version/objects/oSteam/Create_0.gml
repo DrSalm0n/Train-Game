@@ -1,6 +1,7 @@
 // Create Event
 
 // Initialize the emission timer and rate
+
 emission_timer = 0;
 emission_rate = 2; // Number of particles to emit each frame
 steam_emitted = false; // Flag to control one-time steam emission

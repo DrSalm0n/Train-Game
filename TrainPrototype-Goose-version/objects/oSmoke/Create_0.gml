@@ -1,8 +1,9 @@
 // Create the particle system
 global.ps_smoke = part_system_create();
-
 // Define light gray color
 var c_lightgray = make_color_rgb(132, 132, 132);
+
+coal = global.coal;
 
 // Create the smoke particle type
 global.pt_smoke = part_type_create();

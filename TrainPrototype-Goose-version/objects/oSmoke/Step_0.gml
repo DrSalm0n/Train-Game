@@ -23,7 +23,11 @@ part_type_direction(global.pt_smoke, smoke_direction, smoke_direction, 0, 0);
 part_type_gravity(global.pt_smoke, smoke_gravity, 90); // 270 degrees is downward
 
 // Emit particles based on velocity
-if (keyboard_check_pressed(vk_space)) {
-    var emission_rate = 1; // Emit only one particle
-    part_particles_create(global.ps_smoke, chimney_x, chimney_y, global.pt_smoke, emission_rate);
+if (!global.at_warning_zone) { 
+    // Check if the space key is pressed and coal is not zero
+    if (keyboard_check_pressed(vk_space) && coal != 0) {
+        var emission_rate = 1; // Emit only one particle
+        part_particles_create(global.ps_smoke, chimney_x, chimney_y, global.pt_smoke, emission_rate);
+    }
 }
+
