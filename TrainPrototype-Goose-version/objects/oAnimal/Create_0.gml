@@ -12,18 +12,27 @@ switch(rand_sprite)
 {
 	case(0):
 	sprite_index = sAnimal1;
-	weight = 12;
+	weight = 10;
 	break;
 	case(1):
 	sprite_index = sAnimal2;
-	weight = 15;
+	weight = 13;
 	break;
 	case(2):
 	sprite_index = sAnimal3;
-	weight = 10;
+	weight = 8;
 	break;
 	case(3):
 	sprite_index = sAnimal4;
-	weight = 20;
+	weight = 18;
 	break;
+}
+
+
+function delete_if_outside_left(obj) {
+    // Check if the object is outside the left side of the screen
+    if (obj.x < 0 - obj.sprite_width) {
+        // Destroy the object
+        instance_destroy(obj);
+    }
 }

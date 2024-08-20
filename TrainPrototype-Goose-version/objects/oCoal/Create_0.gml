@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-coal = 50
+coal = 500
