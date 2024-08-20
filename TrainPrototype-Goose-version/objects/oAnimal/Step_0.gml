@@ -10,6 +10,7 @@ if(oWhistle.pass == true && oSpawner.time <= 120)
 instance_destroy();	
 oSpawner.difficulty *= 1.08;
 oWhistle.pass = false;
+global.score+=10
 }
 
 delete_if_outside_left(self);
