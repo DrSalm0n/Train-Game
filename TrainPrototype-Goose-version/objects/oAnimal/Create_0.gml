@@ -34,5 +34,6 @@ function delete_if_outside_left(obj) {
     if (obj.x < 0 - obj.sprite_width) {
         // Destroy the object
         instance_destroy(obj);
+		
     }
 }

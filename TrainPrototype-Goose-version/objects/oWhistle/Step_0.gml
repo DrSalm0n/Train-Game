@@ -48,5 +48,9 @@ if(keyboard_check_pressed(ord("D")))
 if(letter == "")
 {
 	pass = true;
+	
 }
+}
+if(pass=true&&global.velocity!=0){
+global.score+=0.01
 }
