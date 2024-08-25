@@ -27,7 +27,7 @@ if (global.velocity == 0 && global.at_warning_zone) {
 
 // Handle scoring
 if (global.at_stop && global.score_token) {
-    global.score += 100;
-	oCoal.coal += 100;
+    global.score += 50;
+	oCoal.coal += 50;
     global.score_token = false;
 }

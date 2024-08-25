@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTrainCol",
-    "path":"sprites/sTrainCol/sTrainCol.yy",
+    "name":"SPR_Train_cum",
+    "path":"sprites/SPR_Train_cum/SPR_Train_cum.yy",
   },
   "spriteMaskId":null,
   "visible":true,

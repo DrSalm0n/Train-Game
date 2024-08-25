@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEngine2",
-    "path":"sprites/sEngine2/sEngine2.yy",
+    "name":"SPR_Engine2",
+    "path":"sprites/SPR_Engine2/SPR_Engine2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

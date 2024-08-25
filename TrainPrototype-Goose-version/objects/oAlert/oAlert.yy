@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sAlert",
-    "path":"sprites/sAlert/sAlert.yy",
+    "name":"SPR_Alert",
+    "path":"sprites/SPR_Alert/SPR_Alert.yy",
   },
   "spriteMaskId":null,
   "visible":true,

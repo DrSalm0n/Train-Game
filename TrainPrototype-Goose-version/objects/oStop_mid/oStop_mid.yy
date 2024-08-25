@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oStop",
+  "%Name":"oStop_mid",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oStop",
+  "name":"oStop_mid",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_Stop",
-    "path":"sprites/SPR_Stop/SPR_Stop.yy",
+    "name":"SPR_Stop_mid",
+    "path":"sprites/SPR_Stop_mid/SPR_Stop_mid.yy",
   },
   "spriteMaskId":null,
   "visible":true,
