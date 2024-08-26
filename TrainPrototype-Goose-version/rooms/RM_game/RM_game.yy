@@ -43,7 +43,6 @@
     {"name":"inst_2F77EFD1","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_5687A43","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_60394E12","path":"rooms/RM_game/RM_game.yy",},
-    {"name":"inst_7F4B5F85","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_4AA7B733","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_6DB47F6F","path":"rooms/RM_game/RM_game.yy",},
     {"name":"inst_56DD604","path":"rooms/RM_game/RM_game.yy",},
@@ -80,7 +79,6 @@
         {"$GMRInstance":"v1","%Name":"inst_528F7A97","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_528F7A97","objectId":{"name":"oTimer","path":"objects/oTimer/oTimer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_2D28D1F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D28D1F1","objectId":{"name":"oWarning","path":"objects/oWarning/oWarning.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_D1E2B5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D1E2B5A","objectId":{"name":"oCoal","path":"objects/oCoal/oCoal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":128.0,},
-        {"$GMRInstance":"v1","%Name":"inst_7F4B5F85","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F4B5F85","objectId":{"name":"oWindow_size","path":"objects/oWindow_size/oWindow_size.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_4AA7B733","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AA7B733","objectId":{"name":"oMiss_message","path":"objects/oMiss_message/oMiss_message.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
       ],"layers":[],"name":"front_elemnts","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"HUD","assets":[
