@@ -11,7 +11,7 @@ rand_sprite = irandom(4)
 switch(rand_sprite)
 {
 	case(0):
-	sprite_index = SPR_Cow;
+	sprite_index = SPR_Animal1;
 	weight = 10;
 	break;
 	case(1):
