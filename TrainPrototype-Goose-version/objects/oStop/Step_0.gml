@@ -13,7 +13,7 @@ if (global.current_distance >= global.total_distance * global.station) {
 }
 
 
-if (place_meeting(x, y, oTrain) && global.velocity == 0.1) {
+if (place_meeting(x, y, oTrain) && global.velocity <= 0.1) {
     global.at_stop = true;
 } else {
 	global.at_stop = false;
@@ -29,5 +29,8 @@ if (global.velocity == 0 && global.at_warning_zone) {
 if (global.at_stop && global.score_token) {
     global.score += 50;
 	oCoal.coal += 50;
+	if (oCoal.coal > global.maxCoal){
+		oCoal.coal = global.maxCoal;
+	}
     global.score_token = false;
 }

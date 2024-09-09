@@ -5,7 +5,7 @@ if (global.current_distance >= global.total_distance * global.station) {
 }
 
 
-if (place_meeting(x, y, oTrain) && global.velocity == 0.1) {
+if (place_meeting(x, y, oTrain) && global.velocity <= 0.1) {
     global.at_stop_small = true;
 } else {
 	global.at_stop_small = false;

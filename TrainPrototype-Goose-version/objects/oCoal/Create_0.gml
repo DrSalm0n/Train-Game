@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 coal = 75;
+global.maxCoal = 250;
 global.coal = coal;
 
 // Create the particle system
