@@ -1,3 +1,4 @@
 letter = "";
 pass = false;
-winlose = false
+winlose = false;
+failcon = false;

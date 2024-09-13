@@ -9,6 +9,7 @@ if (global.current_distance >= global.total_distance * global.station) {
         global.current_distance = 0; // Reset the current distance to 0 for the new round
 		global.reset = true;
 		global.score_token = true;
+		global.rounds += 1;
     }
 }
 
@@ -28,7 +29,7 @@ if (global.velocity == 0 && global.at_warning_zone) {
 // Handle scoring
 if (global.at_stop && global.score_token) {
     global.score += 50;
-	oCoal.coal += 50;
+	oCoal.coal += 25;
 	if (oCoal.coal > global.maxCoal){
 		oCoal.coal = global.maxCoal;
 	}

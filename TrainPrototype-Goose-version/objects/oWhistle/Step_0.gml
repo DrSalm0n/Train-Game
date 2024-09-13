@@ -3,6 +3,7 @@ letter = "----";
 if(oSpawner.time <= 191 && oSpawner.time >= 181) {
 	letter = "????";
 	pass = false;
+	winlose = false;
 }
 if(oSpawner.time <= 180 and oSpawner.time >= 175)
 {
@@ -23,7 +24,8 @@ if(keyboard_check_pressed(ord("A")))
 		else 
 		{
 	letter = "FAIL";
-	winlose = false
+	winlose = false;
+	failcon = true;
 		}
 }
 if(keyboard_check_pressed(ord("W")))
@@ -33,7 +35,8 @@ if(keyboard_check_pressed(ord("W")))
 		else 
 		{
 	letter = "FAIL";
-	winlose = false
+	winlose = false;
+	failcon = true;
 		}
 }
 if(keyboard_check_pressed(ord("S")))
@@ -43,7 +46,8 @@ if(keyboard_check_pressed(ord("S")))
 		else 
 		{
 	letter = "FAIL";
-	winlose = false
+	winlose = false;
+	failcon = true;
 		}
 }
 if(keyboard_check_pressed(ord("D")))
@@ -53,13 +57,14 @@ if(keyboard_check_pressed(ord("D")))
 		else 
 		{
 	letter = "FAIL";
-	winlose = false
+	winlose = false;
+	failcon = true;
 		}
 }	
 if(letter == "")
 {
-		winlose = true
-		letter = "Nice"
+		winlose = true;
+		letter = "Nice";
 }
 }
 if(winlose and oSpawner.time <= 20)
@@ -67,9 +72,9 @@ if(winlose and oSpawner.time <= 20)
 	pass = true;
 	
 }
-else if (!winlose and oSpawner.time <= 20)
+/*else if (!winlose and oSpawner.time <= 20)
 letter = "----";
 
 if(pass&&global.velocity!=0){
 global.score+=0.01
-}
+}*/

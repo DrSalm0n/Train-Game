@@ -34,5 +34,5 @@ global.velocity = max(global.velocity, 0);
 // Update current distance
 global.current_distance += global.velocity;
 
-// Check for reset condition
+
 

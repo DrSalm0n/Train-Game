@@ -5,6 +5,7 @@ global.velocity = 0;
 global.max_velocity= 25;
 global.acceleration = 1.75;
 global.deceleration = 0.03;
+global.rounds = 0;
 
 global.station = 0.95;
 global.beyond_station = 1;

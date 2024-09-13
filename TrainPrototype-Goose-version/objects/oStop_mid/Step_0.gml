@@ -13,7 +13,7 @@ if (place_meeting(x, y, oTrain) && global.velocity <= 0.1) {
 // Handle scoring
 if (global.at_stop_mid && global.score_token) {
     global.score += 50;
-	oCoal.coal += 50;
+	oCoal.coal += 25;
 }
 
 // Handle global reset to reposition stations
