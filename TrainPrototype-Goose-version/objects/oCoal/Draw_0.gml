@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(40,60,string(coal)) 
+draw_text(25,100,string(coal)) 
 
 if (coal == 0 && global.velocity == 0) {
     // Define text strings

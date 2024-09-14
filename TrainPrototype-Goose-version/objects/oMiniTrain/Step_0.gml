@@ -1,3 +1,3 @@
-x = ((global.current_distance * 108)/global.total_distance)+256;
+x = ((global.current_distance * 350)/global.total_distance)+ 130;
 
 
