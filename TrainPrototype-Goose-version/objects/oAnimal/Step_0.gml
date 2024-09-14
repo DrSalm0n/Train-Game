@@ -13,6 +13,7 @@ if (place_meeting(x, y, oTrain)) {
     instance_destroy();
     
     oWhistle.pass = false;
+	global.spawnToken = true;//<---------------------test
 }
 
 if (oWhistle.pass == true && oSpawner.time <= 120) {
@@ -20,6 +21,7 @@ if (oWhistle.pass == true && oSpawner.time <= 120) {
     oSpawner.difficulty *= 1.08;
     oWhistle.pass = false;
     global.score += 10;
+	global.spawnToken = true; //<---------------------test
 }
 
 delete_if_outside_left(self);

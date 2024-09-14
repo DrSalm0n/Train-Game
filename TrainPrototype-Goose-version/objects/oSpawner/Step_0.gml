@@ -1,13 +1,17 @@
-if (global.rounds > 3)//animals won't spawn until after 3 rounds so the player can get use to the game
+//if (global.rounds > 3)//animals won't spawn until after 3 rounds so the player can get use to the game
 {
 	if((rand_dist <= global.current_distance && time <= 0 && oWhistle.pass == false && !global.at_warning_zone && global.velocity >= 7) || oWhistle.failcon == true)
 	{
+		if (global.spawnToken)//<-------------------------testing
+		{
 	    instance_create_depth(x, 235, depth, oAnimal);
 		oWhistle.failcon = false;
+		global.spawnToken = false; //<------------------------testing
 	    // No need to re-randomize unless specific to game mechanics
 		randomize();
 	    time = irandom_range(240, 360);
 	    rand_dist = irandom_range(global.current_distance + 1500, global.current_distance + 4000);
+		}
 	}
 
 	if(rand_dist <= global.current_distance + 1500) {
