@@ -11,7 +11,12 @@
 		randomize();
 	    time = irandom_range(240, 360);
 	    rand_dist = irandom_range(global.current_distance + 1500, global.current_distance + 4000);
+		if(rand_dist >= 10000)
+		rand_dist -= 10000;
 		}
+	}
+	if(rand_dist/2 >= global.current_distance && time <= 0) { 
+		rand_dist = irandom_range(global.current_distance + 1500, global.current_distance + 4000);
 	}
 
 	if(rand_dist <= global.current_distance + 1500) {
