@@ -1,7 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-// Calculate elapsed time
-elapsedTime = current_time - startTime;
+
+elapsedTime = startTime + global.current_distance*0.008;
 
 // Update the display time
-displayTime = elapsedTime / 1000; // Convert milliseconds to seconds
+displayTime = elapsedTime ; // Convert milliseconds to seconds
