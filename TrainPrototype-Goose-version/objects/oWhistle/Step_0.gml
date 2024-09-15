@@ -65,6 +65,7 @@ if(letter == "")
 {
 		winlose = true;
 		letter = "Nice";
+		global.spawnToken = true;//---------------------------------
 }
 }
 if(winlose and oSpawner.time <= 20)
@@ -72,9 +73,9 @@ if(winlose and oSpawner.time <= 20)
 	pass = true;
 	
 }
-/*else if (!winlose and oSpawner.time <= 20)
+/*else if (!winlose and oSpawner.time <= 20) <--------- this wasn't in the version Kaleb did in the test class
 letter = "----";
 
 if(pass&&global.velocity!=0){
 global.score+=0.01
-}*/
+}*/ 
